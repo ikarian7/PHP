@@ -1,6 +1,6 @@
 <?php
-$leeftijd = 12 ; 
-if ($leeftijd <=12 ) {
+$leeftijd = 10 ; 
+if ($leeftijd <=12 && $leeftijd >3 ) {
 	echo "kost = 5";
 } else if ($leeftijd >65 ) {
 	echo "kost = 10";
