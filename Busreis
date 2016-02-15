@@ -1,0 +1,11 @@
+<?php
+$leeftijd = 12 ; 
+if ($leeftijd >=13 ) {
+	echo "kost = 5";
+} else if ($leeftijd >65 ) {
+	echo "kost = 10";
+} else if($leeftijd <=3) {
+	echo "kost = 0";
+} else {
+	echo "kost = 10";}
+?>
