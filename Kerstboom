@@ -1,0 +1,9 @@
+<?php
+$rijen = 9;
+$kerst = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+ for($i = 0 ; $i < $rijen; $i++) {
+ echo "<br>";
+        $kerst = substr($kerst, 6) . "*";
+ echo $kerst;  
+}
+?>
